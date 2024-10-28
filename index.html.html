@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confectionery & Pizza Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-colo">
+        <a class="navbar-brand" href="#"><strong class="firsttext">US</strong> <strong>Confectionery & Pizza</strong> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/Dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="three.jpg" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="cake.jpg" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+      
+        <!-- Navigation Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <div class="container">
+        <div class="row row-cols-2 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card category-card bg-light text-center ">
+                    <a  class="atext" href="#bakery">Bakery</a>  
+                </div>
+            </div>
+            <div class="col " >
+                <div class="card category-card bg-light text-center ">
+                   <a class="atext" href="#pizza">Pizza</a> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category-card bg-light text-center ">
+                    <a  class="atext" href="#choco">Chocolates</a> 
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category-card bg-light text-center ">
+    
+                    <a  class="atext" href="#candy">Candies</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------Pizza -------------------->
+
+
+<div class="pontainer" id="pizza">
+    <h2 class="text-center mb-5">Our Delicious Pizzas</h2>
+
+    <div class="row row-cols-2 row-cols-md-3 g-4">
+        <!-- Margherita Pizza -->
+        <div class="col">
+            <div class="card pizza-card">
+                <img src="pizabg.jpg" class="card-img-top" alt="Margherita Pizza">
+                <div class="card-body text-center">
+                    <p class="pizza-title">Margherita</p>
+                    <p class="card-text">Classic Margherita pizza with fresh mozzarella and Capsicum.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pepperoni Pizza -->
+        <div class="col">
+            <div class="card pizza-card">
+                <img src="Pneer.jpg" class="card-img-top" alt="Pepperoni Pizza">
+                <div class="card-body text-center">
+                    <p class="pizza-title">Chees Paneer Pizza</p>
+                    <p class="card-text">Loaded with pepperoni slices and topped with melted cheese.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Veggie Pizza -->
+        <div class="col">
+            <div class="card pizza-card">
+                <img src="veg.jpg" class="card-img-top" alt="Veggie Pizza">
+                <div class="card-body text-center">
+                    <p class="pizza-title">Veggie</p>
+                    <p class="card-text">Fresh veggies like bell peppers, olives, onions, and tomatoes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Four Cheese Pizza -->
+        <div class="col">
+            <div class="card pizza-card">
+                <img src="chese.jpg" class="card-img-top" alt="Four Cheese Pizza">
+                <div class="card-body text-center">
+                    <p class="pizza-title">Full Cheese Pizza</p>
+                    <p class="card-text">A blend of mozzarella, cheddar, parmesan, and blue cheese.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------Chocolates-------------------->
+
+<div class="chontainer" id="choco">
+    <h2 class="text-center mb-5">Our Premium Chocolates</h2>
+
+    <div class="row row-cols-2 row-cols-md-3 g-4">
+        <!-- Dark Chocolate -->
+        <div class="col">
+            <div class="card chocolate-card">
+                <img src="dark.jpg" class="card-img-top" alt="Dark Chocolate">
+                <div class="card-body text-center">
+                    <p class="chocolate-title">Dark Chocolate</p>
+                    <p class="card-text">Rich and intense dark chocolate with a smooth finish.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Milk Chocolate -->
+        <div class="col">
+            <div class="card chocolate-card">
+                <img src="milk.jpg" class="card-img-top" alt="Milk Chocolate">
+                <div class="card-body text-center">
+                    <p class="chocolate-title">Milk Chocolate</p>
+                    <p class="card-text">Creamy milk chocolate with a velvety texture.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- White Chocolate -->
+        <div class="col">
+            <div class="card chocolate-card">
+                <img src="cad.jpg" class="card-img-top" alt="White Chocolate">
+                <div class="card-body text-center">
+                    <p class="chocolate-title">Cadbury Chocolates</p>
+                    <p class="card-text">Smooth and sweet all Cadbury chocolates, perfect for any occasion.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Almond Chocolate -->
+        <div class="col">
+            <div class="card chocolate-card">
+                <img src="almond.jpg" class="card-img-top" alt="Almond Chocolate">
+                <div class="card-body text-center">
+                    <p class="chocolate-title">Almond Chocolate</p>
+                    <p class="card-text">Crunchy almonds covered in smooth chocolate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--.........................Bakery ..................-->
+
+<div class="coontainer" id="bakery">
+    <h2 class="text-center mb-5">Our Bakery Products</h2>
+
+    <!-- Namkeen Section -->
+    <h3 class="mb-4">Namkeen</h3>
+    <div class="row row-cols-2 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card product-card">
+                <img src="spicy.jpg" class="card-img-top" alt="Namkeen Product 1">
+                <div class="card-body text-center">
+                    <p class="product-title">Spicy Namkeen</p>
+                    <p class="card-text">A deliciously spicy treat for any time of the day.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card product-card">
+                <img src="crun.jpg" class="card-img-top" alt="Namkeen Product 2">
+                <div class="card-body text-center">
+                    <p class="product-title">Crunchy Mixture</p>
+                    <p class="card-text">A perfect blend of crunch and flavor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card product-card">
+                <img src="kaju.jpg" class="card-img-top" alt="Namkeen Product 2">
+                <div class="card-body text-center">
+                    <p class="product-title">Dry Fruits Mixture</p>
+                    <p class="card-text">A perfect blend of Dry fruits  and flavor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card product-card">
+                <img src="salt.jpg" class="card-img-top" alt="Namkeen Product 3">
+                <div class="card-body text-center">
+                    <p class="product-title">Salted Peanuts</p>
+                    <p class="card-text">Lightly salted peanuts with a rich taste.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biscuits Section -->
+    <h3 class="mt-5 mb-4">Biscuits</h3>
+    <div class="row row-cols-2 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card product-card">
+                <img src="butterbis.jpg" class="card-img-top" alt="Biscuits Product 1">
+                <div class="card-body text-center">
+                    <p class="product-title">Butter Biscuits</p>
+                    <p class="card-text">Soft, buttery biscuits that melt in your mouth.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card product-card">
+                <img src="neww.jpg" class="card-img-top" alt="Biscuits Product 2">
+                <div class="card-body text-center">
+                    <p class="product-title">Chocolate Cookies</p>
+                    <p class="card-text">Rich chocolate cookies for a sweet craving.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card product-card">
+                <img src="saltb.jpg" class="card-img-top" alt="Biscuits Product 2">
+                <div class="card-body text-center">
+                    <p class="product-title">Namkeen Cookies</p>
+                    <p class="card-text">Rich Salted cookies for a Namkeen craving.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card product-card">
+                <img src="oat.jpg" class="card-img-top" alt="Biscuits Product 3">
+                <div class="card-body text-center">
+                    <p class="product-title">Oatmeal Biscuits</p>
+                    <p class="card-text">Healthy biscuits made with oats and honey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------Candy-------------->
+
+<div class="cantainer" id="candy">
+    <h2 class="text-center mb-5">Our Sweet Candies</h2>
+
+    <div class="row row-cols-2 row-cols-md-3 g-4">
+        <!-- Lollipop -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="pop.jpg" class="card-img-top" alt="Lollipop">
+                <div class="card-body text-center">
+                    <p class="candy-title">Lollipop</p>
+                    <p class="card-text">Colorful and fun lollipops in various flavors.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gummy Bears -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="gum.jpg" class="card-img-top" alt="Gummy Bears">
+                <div class="card-body text-center">
+                    <p class="candy-title">Gummy Bears</p>
+                    <p class="card-text">Chewy gummy bears in assorted fruity flavors.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chocolate Candy -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="ccandy.jpg" class="card-img-top" alt="Chocolate Candy">
+                <div class="card-body text-center">
+                    <p class="candy-title">Chocolate Candy</p>
+                    <p class="card-text">Rich chocolate candies with a creamy filling.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jelly Beans -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="jb.jpg" class="card-img-top" alt="Jelly Beans">
+                <div class="card-body text-center">
+                    <p class="candy-title">Jelly Beans</p>
+                    <p class="card-text">Sweet and fruity jelly beans in multiple colors.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Candy Corn -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="ccron.jpg" class="card-img-top" alt="Candy Corn">
+                <div class="card-body text-center">
+                    <p class="candy-title">Candy Corn</p>
+                    <p class="card-text">Classic candy corn with a sweet and creamy taste.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hard Candy -->
+        <div class="col">
+            <div class="card candy-card">
+                <img src="hc.jpg" class="card-img-top" alt="Hard Candy">
+                <div class="card-body text-center">
+                    <p class="candy-title">Hard Candy</p>
+                    <p class="card-text">Long-lasting hard candies in a variety of flavors.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            <!-- Repeat for other products -->
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="container py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-8">
+            <h2>Contact Us</h2>
+            <p class="mb-4">Feel free to reach out to us through any of the following channels:</p>
+            
+            <div class="d-flex justify-content-center align-items-center mb-3">
+              <i class="fas fa-phone-alt me-2"></i>
+              <span>+91- 9557618838</span>
+            </div>
+            
+            <div class="d-flex justify-content-center gap-3 mt-3">
+              <!-- WhatsApp -->
+              <a href="https://wa.me/9997798538" target="_blank" class="text-decoration-none">
+                <i class="fab fa-whatsapp fa-2x text-success"></i>
+              </a>
+              
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/abdaal12" target="_blank" class="text-decoration-none">
+                <i class="fab fa-instagram fa-2x text-danger"></i>
+              </a>
+              
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/abdaal ali" target="_blank" class="text-decoration-none">
+                <i class="fab fa-facebook fa-2x text-primary"></i>
+              </a>
+              
+              <!-- Email -->
+              <a href="mailto:aabdaal02@gmail.com" class="text-decoration-none">
+                <i class="fas fa-envelope fa-2x text-dark"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <footer id="contact" class=" py-3 nav-colo">
+        <div class="container text-center">
+            <p>Contact us at: <a href="mailto:admin@confectioneryshop.com">us@cofectionery.com</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+    
+
+
